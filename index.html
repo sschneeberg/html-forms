@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="style.css">
-<title>Working with HTML Forms</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>Working with HTML Forms</title>
 </head>
+
 <body>
     <h1>JavaScript and HTML Forms</h1>
     <form id="form-user" action="#" method="post">
         <div class="form-box error" data-errormsg="">
             <label for="input-first">First</label>
-            <input type="text" id="input-first" autofocus placeholder="First Name" tabindex="1"/>
+            <input type="text" id="input-first" autofocus placeholder="First Name" tabindex="1" />
         </div>
         <div class="form-box" data-errormsg="">
             <label for="input-password">Password</label>
@@ -24,11 +26,12 @@
         <div class="form-box" data-errormsg="">
             <label for="input-age">Age</label>
             <select id="input-age" tabindex="4">
-                <option value="0">Under 20</option>
-                <option value="1">20-30</option>
-                <option value="2">30-40</option>
-                <option value="3">40-50</option>
-                <option value="4">Over 50</option>
+                <option value="0">Select Age Range</option>
+                <option value="1">Under 20</option>
+                <option value="2">20-30</option>
+                <option value="3">30-40</option>
+                <option value="4">40-50</option>
+                <option value="5">Over 50</option>
             </select>
         </div>
         <div class="form-box" data-errormsg="">
@@ -42,4 +45,5 @@
     </form>
     <script src="forms.js"></script>
 </body>
+
 </html>
